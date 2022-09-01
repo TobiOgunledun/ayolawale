@@ -12,17 +12,13 @@ img{
 
 }
 body{
-    width: 100vw;
     overflow-x: hidden;
-    outline: hidden;
     background: #faebcd;
     color: #000;
     position: relative;
     font-family: 'Nunito', sans-serif;
 }
 section{
-    overflow-x: hidden;
-    outline: hidden;
     width: 90%;
     margin: 1em auto;
     background: rgba(255, 255, 255, .7);
@@ -51,8 +47,6 @@ button{
     margin: .5em auto;
 }
 nav{
-    overflow-x: hidden;
-    outline: hidden;
     position: sticky;
     top: 0;
     width: 100%;
@@ -78,8 +72,8 @@ nav i{
 }
 #navMenu{
     position: absolute;
-    top: 100%;
-    right: -40%;
+    top: -100vh;
+    right: 2%;
     width: 10em;
     height: 10em;
     background: rgba(0, 0, 0, .1);
