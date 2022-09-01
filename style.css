@@ -12,6 +12,7 @@ img{
 
 }
 body{
+    width: 100vw;
     overflow-x: hidden;
     outline: hidden;
     background: #faebcd;
@@ -20,6 +21,8 @@ body{
     font-family: 'Nunito', sans-serif;
 }
 section{
+    overflow-x: hidden;
+    outline: hidden;
     width: 90%;
     margin: 1em auto;
     background: rgba(255, 255, 255, .7);
@@ -48,6 +51,8 @@ button{
     margin: .5em auto;
 }
 nav{
+    overflow-x: hidden;
+    outline: hidden;
     position: sticky;
     top: 0;
     width: 100%;
