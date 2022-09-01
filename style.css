@@ -13,6 +13,7 @@ img{
 }
 body{
     overflow-x: hidden;
+    outline: hidden;
     background: #faebcd;
     color: #000;
     position: relative;
