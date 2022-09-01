@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayobami Olawale</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="queries.css">
+
+    
+    <link rel="stylesheet" type="text/html" href="./user/Downloads/fontawesome-free-6.1.1-web/css/all.css">
+
+	<link rel="stylesheet" href="file:///C:/Users/User/Desktop/iTins/icons/fontawesome-free-6.1.1-web/css/all.css">
+
+	<link rel="stylesheet" href="/icons/fontawesome-free-6.1.1-web/css/all.css">
+
+
+    <script src="https://kit.fontawesome.com/2bbbf54a3f.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <nav>
+        <label for="logo">Ayobami</label>
+        <ul id="navMenu">
+            <li><a href="">about</a></li>
+            <li><a href="">publication</a></li>
+            <li><a href="">contact</a></li>
+        </ul>
+        <i class="fas fa-bars"  id="openMenu"  onclick="showMenu()"></i>
+        <i class="fas fa-times" id="closeMenu" onclick="hideMenu()"></i>
+
+    </nav>
+
+    <section class="home" id="home">
+        <div class="homeContainer">
+            <div class="imageSec">
+                <div class="img">
+                    <img src="bckg.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="overview">
+                <h1>Ayobami Olawale</h1>
+                <h2>Mechanical Engineer</h2>
+                <a href=""><button>view transcript</button></a>
+
+                <div class="social">
+                    <div class="icon">
+                        <i class="fab fa-whatsapp"></i>
+                        <a href="wa.me//">+234 811 2222 333</a>
+                    </div>
+                    <div class="icon">
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:">olawale@gmail.com</a>
+                    </div>
+                    <div class="icon">
+                        <i class="fas fa-location-dot"></i>
+                        <a href="">Lagos, Nigeria.</a> 
+                    </div>
+                    
+
+
+                </div>
+            </div>
+        </div>  
+    </section>
+
+    <section class="about" id="about">
+        <div class="aboutSec">
+            <header>
+                <h1>About</h1>
+            </header>
+            
+            <p>
+                A graduate of Mechanical Engineering from Landmark University with Certifications
+                in Project Management, Health Safety and Security Environment, and a background 
+                knowledge of automobiles with hands-on experience about the repairs and maintenance 
+                of various truck parts. 
+                <br>
+                <br>
+                Skilled with the use of Microsoft Office packages and a basic knowledge in AutoCAD,
+                programming and MATlab with interest in Leadership and Managements.
+
+            </p>
+        </div>
+    </section>
+
+    <section class="certification" id="certification">
+        <div class="certificateSec">
+            <header>
+                <h1>Certification</h1>
+            </header>
+        </div>
+        
+
+    </section>
+
+    <section class="research" id="research">
+        <div class="researchSec">
+            <header>
+                <h1>published articles</h1>
+            </header>
+            <div class="wrapper" id="wrapper">
+                <div class="article">
+                    <h2>
+                        Comparative analyses of lean Grade Coal and Carbonized
+                        Antiaris toxicaria for Energy Generation.
+                    </h2>
+                    <a href=""><h1> view</h1></a>
+                </div>
+
+                <div class="article">
+                    <h2>
+                       Characterization of some commercially available Nigerian 
+                       coals as carbonaceous material for direct reduced iron production.
+                    </h2>
+                    <a href=""><h1> view</h1></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script type="text/javascript">
+        const closeMenu = document.getElementById("closeMenu");
+        const openMenu = document.getElementById("openMenu");
+        const navMenu = document.getElementById("navMenu");
+
+        closeMenu.style.display = "none";
+        function showMenu(){
+            openMenu.style.display = "none";
+            closeMenu.style.display = "block";
+            navMenu.style.right = "2%";
+        }
+        function hideMenu(){
+            closeMenu.style.display = "none";
+            openMenu.style.display = "block";
+            navMenu.style.right = "";
+
+        }
+    </script>
+</body>
+</html>

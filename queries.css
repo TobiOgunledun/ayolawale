@@ -1,0 +1,13 @@
+@media (min-width: 980px){
+    .homeContainer{
+       flex-direction: row-reverse;
+    }
+    .imageSec, .overview{
+        width: 45%;
+    }
+    .img{
+        position:relative;
+        width: 15em;
+        height: 15em;
+    }
+}
