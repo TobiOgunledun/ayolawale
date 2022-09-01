@@ -102,6 +102,7 @@ nav i{
     gap: 1em;
     justify-content: center;
     align-items: center;
+    padding: 1em 0;
 }
 .homeContainer .imageSec{
     width: 30em;
@@ -147,7 +148,7 @@ nav i{
     align-items: center;
 }
 .wrapper .article{
-    background: rgba(255, 255, 255, .7);
+    background: rgba(255, 255, 255, .9);
     display: flex;
     flex-direction: column;
     gap: 1em;
@@ -157,4 +158,6 @@ nav i{
     height: 15em;
     border-radius: .5em;
     text-align: center;
+    padding: 1em .5em;
+    text-align: left;
 }
